@@ -1,0 +1,72 @@
+{
+  "notes": "tapFrac is a normalised SCREEN point from the top-left. UI taps are computed from the real RectTransform over the 1242x2688 panel with the letterbox correction: the CanvasScaler expands to 1242x2760 on the 1080x2400 device and AspecterSA centres a 1242x2688 panel inside it, so a panel point at y lands at (1380 - y) / 2760 from the top and a panel point at x lands at 0.5 + x / 1242. World taps (the baskets) need no correction - the camera fills the screen, so a basket at (i-1)*slotW with slotW = 2*halfW*0.92/3 sits at 0.5 +/- 0.92/3 across, and a basket at -0.59*halfH sits at 0.795 down. Step 1 blocks on the loader because the menu scene shows the template splash on a cold launch too; a fixed wait there would photograph the loading bar and offset every later tap by one screen. Both overlay sheets use their own dimmed surround as a close control, so a press that misses the corner glyph cannot leave a sheet covering the board. The day clock is 110 s and nothing can end the round without input, so every gameplay frame here lands inside a live round; the pause card also releases itself after 9 s, so a missed RESUME cannot park the capture.",
+  "steps": [
+    {
+      "waitLoader": true,
+      "shot": "01_MenuScreen"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.7029
+      ],
+      "label": "HOW_TO_SORT",
+      "wait": 1.6,
+      "shot": "02_HowToSort_step1"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.6159
+      ],
+      "label": "NEXT_STEP",
+      "wait": 1.4,
+      "shot": "03_HowToSort_step2"
+    },
+    {
+      "tapFrac": [
+        0.8784,
+        0.1105
+      ],
+      "label": "OPEN_GARDENS",
+      "wait": 1.4,
+      "shot": "04_GardenSelect"
+    },
+    {
+      "tapFrac": [
+        0.2665,
+        0.2681
+      ],
+      "label": "GARDEN_ONE",
+      "waitLoader": true,
+      "shot": "05_GameScreen"
+    },
+    {
+      "tapFrac": [
+        0.1933,
+        0.795
+      ],
+      "label": "BASKET_LEFT",
+      "wait": 2.5,
+      "shot": "06_FruitDelivered"
+    },
+    {
+      "tapFrac": [
+        0.8067,
+        0.795
+      ],
+      "label": "BASKET_RIGHT",
+      "wait": 2.5,
+      "shot": "07_OrdersProgress"
+    },
+    {
+      "tapFrac": [
+        0.8864,
+        0.0833
+      ],
+      "label": "PAUSE",
+      "wait": 2.0,
+      "shot": "08_PausePop"
+    }
+  ]
+}

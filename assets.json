@@ -1,0 +1,156 @@
+{
+  "style": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art",
+  "palette": [
+    "#0D2818",
+    "#173020",
+    "#1E3D2A",
+    "#7CCB5B",
+    "#F5C451",
+    "#EE6B55",
+    "#8D67C7",
+    "#FFF6E5"
+  ],
+  "notes": "Casual sorting puzzle set in a fairy-tale garden at golden hour. One art style across every asset. The app name appears on no sprite and in no scene text.",
+  "assets": [
+    {
+      "name": "bg_main",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_main.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, vertical 9:16 portrait mobile game background, a fairy-tale garden clearing at golden hour, deep forest-green canopy framing the left and right edges, warm cream light pooling in the middle distance, blossom drifting and small paper lanterns in the branches, calm uncluttered composition with a large empty safe area through the centre for controls, no text, no letters, no logos, no UI elements, no characters"
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, vertical 9:16 portrait mobile game background, a softly lit garden lawn with a folded chequered blanket along the lower edge and tall grass at the far sides, muted deep green, low contrast, one wide empty band across the middle of the frame for gameplay, no text, no letters, no logos, no UI elements, no characters"
+    },
+    {
+      "name": "sprite_fruit_apple",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_fruit_apple.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single large ripe red apple with a single green leaf on its stem, front view, symmetric, no facing direction, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_fruit_pear",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_fruit_pear.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single large golden-green pear with a short brown stem, front view, symmetric, no facing direction, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_fruit_plum",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_fruit_plum.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single large deep-violet plum with a soft dusty bloom on its skin, front view, symmetric, no facing direction, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_fruit_mandarin",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_fruit_mandarin.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single large bright orange mandarin with two small leaves on top, front view, symmetric, no facing direction, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_fruit_grapes",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_fruit_grapes.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single plump cluster of purple grapes with one curling tendril, front view, symmetric, no facing direction, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_fruit_golden",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_fruit_golden.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single glowing golden berry wearing a tiny coronet of three leaves, warm gold light around it, front view, symmetric, no facing direction, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_basket_willow",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_basket_willow.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single empty woven willow hamper with a wide open mouth and a plain arched handle, three-quarter front view, opening facing UP, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_basket_cloth",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_basket_cloth.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single empty woven wicker hamper lined with a soft blue-green chequered cloth folded over its rim, three-quarter front view, opening facing UP, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_basket_ribbon",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_basket_ribbon.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single empty woven wicker hamper tied with a wide warm-yellow ribbon bow on its handle, three-quarter front view, opening facing UP, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_mat_round",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_mat_round.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single round woven straw serving mat, empty, seen from a slight angle, top-down, symmetric, nothing resting on it, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_card_tag",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_card_tag.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single square wooden order tag with rounded corners, a rope loop at the top and a plain cream parchment face, front view, symmetric, blank face, no writing on it, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_ribbon_hint",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_ribbon_hint.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single long horizontal cream ribbon banner with softly rolled ends, blank, front view, symmetric, horizontally stretchable, nothing written on it, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_emblem_leafcrown",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_emblem_leafcrown.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single abstract heraldic mark: a simple arched diadem built from five overlapping leaves with three small round berries, flat emblem, no shield, front view, symmetric, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_pip_leaf",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_pip_leaf.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single small rounded green leaf badge with a pale rim, front view, symmetric, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_icon_close",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_close.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single thick rounded cross mark made of two crossing twigs, front view, symmetric, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_icon_pause",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_pause.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single pause mark made of two thick rounded vertical bars side by side, front view, symmetric, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_icon_back",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_back.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single thick rounded solid arrow head, side view, facing LEFT, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    },
+    {
+      "name": "sprite_butterfly",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_butterfly.png",
+      "prompt": "hand-painted storybook gouache illustration, soft brush texture, warm fairy-tale garden palette, clean game art, one single small pale-yellow butterfly with both wings open and spread flat, top-down, nose UP, symmetric wings, one single subject centred and whole in frame, crisp silhouette, no other objects, no text, no letters, no numbers, no logos"
+    }
+  ]
+}
